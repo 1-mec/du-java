@@ -1,4 +1,4 @@
-package papier;
+package lettre;
 
 public class Feuille {
 	private String verso;
@@ -61,3 +61,4 @@ public class Feuille {
 	
 
 }
+
