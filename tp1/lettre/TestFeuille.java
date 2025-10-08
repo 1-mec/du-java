@@ -1,4 +1,4 @@
-package papier;
+package lettre;
 
 public class TestFeuille {
 
@@ -25,3 +25,4 @@ public class TestFeuille {
 	}
 
 }
+
