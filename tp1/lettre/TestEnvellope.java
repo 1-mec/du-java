@@ -1,4 +1,4 @@
-package papier;
+package lettre;
 
 import java.util.ArrayList;
 
@@ -45,3 +45,4 @@ public class TestEnvellope {
 	}
 
 }
+
