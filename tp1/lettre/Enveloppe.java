@@ -1,4 +1,4 @@
-package papier;
+package lettre;
 import java.util.ArrayList;
 
 public class Enveloppe {
@@ -78,3 +78,4 @@ public class Enveloppe {
 		}
 	}
 }
+
