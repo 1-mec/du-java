@@ -4,19 +4,11 @@ import java.util.*;
 
 public interface Taggable {
 	
-	public default void addTag(String tag) {
-		this.addTag(tag);
-	}
+	void addTag(String tag);
 	
-	public default void removeTag(String tag) {
-		this.removeTag(tag);
-	}
+	void removeTag(String tag);
 	
-	public default int tagCount() {
-		return this.tagCount();
-	}
+	int tagCount();
 	
-	public default List<String> getTags() {
-		return this.getTags();
-	}
+	List<String> getTags();
 }
