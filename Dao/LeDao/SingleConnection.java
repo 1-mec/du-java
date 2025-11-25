@@ -18,7 +18,7 @@ public class SingleConnection  {
 	
 	public static Connection getInstance() {
 		if (connect == null) {
-			new SingleConnection();
+			new SingleConnection(String db_name,,String url,String login, String password);
 		}
 		return connect;
 	}
@@ -33,4 +33,5 @@ public class SingleConnection  {
 	}
 	
 }
+
 
